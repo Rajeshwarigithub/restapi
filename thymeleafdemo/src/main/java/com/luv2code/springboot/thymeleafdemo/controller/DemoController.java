@@ -10,7 +10,7 @@ public class DemoController {
 	// create a mapping for "/hello"
 	
 	@GetMapping("/hello")
-	public String sayHello(Model theModel) {
+	public String sayHello1(Model theModel) {
 		
 		theModel.addAttribute("theDate", new java.util.Date());
 		
